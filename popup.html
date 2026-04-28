@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Realistic Pong Arena</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section id="menuScreen" class="screen menu-screen">
+        <div class="menu-panel">
+          <p class="eyebrow">Select Mode</p>
+          <h1>Pong</h1>
+          <p class="menu-copy">Choose how you want to play.</p>
+          <div class="menu-actions">
+            <button id="singlePlayerButton" class="menu-button" type="button">1 Player</button>
+            <button id="multiPlayerButton" class="menu-button" type="button">2 Player</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="gameScreen" class="screen game-screen hidden">
+        <div class="game-topbar">
+          <button id="backButton" class="hud-button" type="button">Back</button>
+          <div class="scoreboard">
+            <span id="leftLabel">P1</span>
+            <strong><span id="leftScore">0</span> : <span id="rightScore">0</span></strong>
+            <span id="rightLabel">CPU</span>
+          </div>
+          <div class="game-meta">
+            <span id="modeLabel">1 Player</span>
+            <span id="controlHint">Move: Up / Down</span>
+          </div>
+        </div>
+
+        <div class="canvas-shell">
+          <canvas id="gameCanvas" width="700" height="430" aria-label="Pong game"></canvas>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
