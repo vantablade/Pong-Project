@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Realistic Pong Arena",
+  "description": "A polished Pong game Chrome extension with solo and two-player modes.",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "Play Pong",
+    "default_popup": "popup.html"
+  }
+}
