@@ -18,11 +18,8 @@ Play directly in your browser with quick, responsive controls and classic arcade
 
 ## How to Install
 
-1. Download or clone this repository
-2. Open Google Chrome and go to `chrome://extensions/`
-3. Enable **Developer Mode** (top right)
-4. Click **Load unpacked**
-5. Select this project folder
+Published on the Chrome Web Store on this link:
+https://chromewebstore.google.com/detail/realistic-pong-arena/afphapibeococopmjcaimocclgncmnpb
 
 ## How to Play
 
